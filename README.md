@@ -9,7 +9,7 @@ interface Token {
 contract TokenCorrect is Token {
     mapping (address => uint) balance;
     constructor(address _a, uint _b) {
-        balance[_a] = _b;
+        balance[_a] = _ab;
     }
     function balanceOf(address _a) public view override returns (uint) {
         return balance[_a];
