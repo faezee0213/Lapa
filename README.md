@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MNJ-3.1
+// SPDX-License-Identifier: MNJ-3.1.3
 pragma solidity >=0.5.0;
 
 interface Token {
@@ -9,10 +9,7 @@ interface Token {
 contract TokenCorrect is Token {
     mapping (address => uint) balance;
     constructor(address _a, uint _b) {
-        balance[_a] = _ab;
-    }
-    
-    function balanceOf(address _a)
+        balance[_a] = _ab;}function balanceOf(address _a)
     }
     
     function transfer(address _to, uint _amt) public override {
