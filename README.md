@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MNJ-3.3
+// SPDX-License-Identifier: MNJ-3.2
 pragma solidity >=0.5.0;
 
 interface Token {
