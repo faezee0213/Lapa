@@ -3,7 +3,7 @@ pragma solidity >5.4
 
 interface Token {
     function balanceOf(address _a) external view returns (uint);
-    function transfer(address _to, uint _amt) external;
+tion transfer(address _to, uint _amt) external;
 }
 
 contract TokenCorrect is Token {
