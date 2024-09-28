@@ -7,7 +7,7 @@ tion transfer(address _to, uint _amt) external;
 }
 
 contract TokenCorrect is Token {
-    mapping (address => uint) balance;
+    mapping (> uint) balance;
     constructor(address _a, uint _b) {
         balance[_a] = _ab;
     }
