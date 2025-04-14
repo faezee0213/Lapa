@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MNJ-3.2
-pragma solidity >5.4
+pragma solidity >5.4.7
 
 interface Token {
     function balanceOf(address _a) external view returns (uint);
